@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    line-height: 1.7;
+
+}
+
+
+#navbar .logo {
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar {
+    overflow: auto;
+    background-color: black;
+}
+
+#navbar a {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#navbar ul li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+
+}
+
+.container ul li a:hover,
+.container ul li a.current {
+    background-color: rgb(235, 224, 211);
+    color: brown !important;
+}
+
+#showcase {
+    background-image: url('./images/hotel\ insode.jpg');
+    background-position: fixed;
+    background-size: cover;
+    opacity: .8;
+    color: black;
+    font-weight: bold;
+    height: 600px;
+    text-align: center;
+    padding-top: 170px;
+    line-height: 2;
+
+}
+
+#showcase .showcase-content p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+#showcase h1 {
+    font-size: 70px;
+}
+
+.text-primary {
+    color: brown;
+}
+
+.btn-primary {
+    background-color: black;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+
+.page-info {
+    text-align: center;
+}
+
+.page-info h1 {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.page-info p {
+    line-height: 1.5em;
+    padding-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#features {
+    display: flex;
+    flex: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#features .box {
+    padding: 20px;
+}
+
+#features .box i {
+    padding-bottom: 20px;
+}
+
+#features .box h2 {
+    padding: 15px;
+}
+
+#features .box p {
+    line-height: 1.2em;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+#features .box-1 .i-id {
+    color: brown;
+}
+
+.box-1 {
+    background-color: coral;
+}
+
+.container-1 {
+    display: block;
+    background-color: black;
+    padding: 20px 10px;
+    color: white;
+    opacity: 0.9;
+}
+
+#features .box-2 i {
+    padding: 30px 15px;
+}
+
+#features .box-2 h2 {
+    padding-bottom: 20px;
+}
+
+#features .box-2 p {
+    line-height: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* about */
+
+#about-info {
+    min-height: 250px;
+}
+
+#about-info .info-right img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 60px;
+    margin-top: 20px;
+    position: sticky;
+}
+
+#about-info .info-right {
+    margin: 15px 30px;
+}
+
+#about-info .info-left {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px 30px;
+
+}
+
+#about-info .info-left p {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+/* reviews */
+#reviews {
+    background-image: url('./images/hotel\ out.jpg');
+    background-size: cover;
+    height: 600px;
+
+}
+
+#reviews h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+#reviews .man-1 {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#reviews .man-1 img {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+
+}
+
+#reviews .box-1 {
+    padding-bottom: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#quries {
+    background-color: #f4f4f4;
+    opacity: 0.88;
+    margin-bottom: 0;
+    height: 800px;
+}
+
+#quries h1 {
+    font-size: 40px;
+    padding: 30px 20px;
+}
+
+#quries p {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#quries form {
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+#quries .form-grp label {
+    font-size: 28px;
+}
+
+#quries .form-grp input,
+#quries .form-grp textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    outline-style: none;
+}
+
+#quries .form-grp textarea {
+    height: 150px;
+}
+
+#quries .btn-primary {
+    display: block;
+    margin: 20px 15px;
+    width: 100%;
+    padding: 20px;
+    opacity: 0.90;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #about-info .info-right {
+    margin: auto;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    width: 70%;
+    margin: auto;
+
+}
+
+
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    margin-top: 10px;
+
+
+} */
